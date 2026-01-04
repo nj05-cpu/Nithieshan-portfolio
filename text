@@ -1,0 +1,103 @@
+
+
+
+    <h2 class="about-title">Projects</h2>
+    <div class="box">
+    <nav>
+       
+      <div class="nav-links">
+        <ul>
+          <li><a href="#programming">Java</a></li> 
+          <li><a href="#intro">C/C++</a></li> 
+          <li><a href="#">Python</a></li> 
+        </ul>
+      </div>
+      
+    </nav>
+    <div class="projects_box">
+
+  <!--Java section-->
+  <div class="about-right">
+
+    <div class="tech-grid">
+        <div class="tech-card">Java</div>
+
+    </div>
+  </div>
+
+    
+
+<h3>1. Bookstore Application (JavaFX)</h3>
+<p>
+A desktop bookstore management system built with Java and JavaFX, featuring role-based access for owners and customers, file-backed data persistence, and a customer loyalty rewards program. The application supports secure login, dynamic inventory browsing, purchasing workflows, and points redemption logic. This project demonstrates skills in object-oriented design, GUI development, event-driven programming, and applying design patterns such as State to manage application behavior.
+</p>
+
+  <!--Python section-->
+  <div class="about-right">
+
+    <div class="tech-grid">
+        <div class="tech-card">Python</div>
+
+    </div>
+  </div>
+
+<h3>2. Tic-Tac-Toe AI (Minimax Algorithm)</h3>
+<p>
+A command-line Tic-Tac-Toe game in Python featuring an unbeatable AI opponent implemented using the Minimax algorithm. The AI recursively evaluates all possible game states to choose optimal moves, guaranteeing the best outcome against any opponent. This project highlights algorithmic thinking, recursion, game-tree search, and clean turn-based game logic.
+
+</p>
+<h3>5. Flashcard Web Application (Flask)</h3>
+<p>
+Built a Flask-based web application that allows users to create, manage, and review flashcards stored in JSON files. The app features dynamic routing, form handling, and template rendering using Jinja2. This project demonstrates backend web development, REST-style design, file-based persistence, and building interactive educational tools with Python.
+
+</p>
+
+<h3>6. OCR Pipeline for Course Outline Analysis</h3>
+<p>
+Currently developing an OCR pipeline using PyMuPDF, Tesseract, and Python to extract and analyze text from course outline PDFs. The system identifies evaluation sections and computes grade breakdowns automatically, with the goal of helping students calculate required marks to pass or achieve target averages. This project highlights applied computer vision, text processing, and building practical data-driven tools from unstructured documents.
+
+</p>
+
+
+  <!--C section-->
+  <div class="about-right">
+
+    <div class="tech-grid">
+        <div class="tech-card">C</div>
+
+    </div>
+  </div>
+
+<h3>3. Finite State Machine Simulator (C)</h3>
+<p>
+Developed a finite state machine simulator in C that processes user input, performs state transitions, detects invalid or garbage states, and supports dynamic state deletion and garbage collection. The program allows configuration printing and interactive testing of state behavior. This project demonstrates strong understanding of low-level programming, memory management, data structures, and implementing abstract computational models in C.
+</p>
+
+  <!--sql section-->
+  <div class="about-right">
+
+    <div class="tech-grid">
+        <div class="tech-card">SQL</div>
+
+    </div>
+  </div>
+<h3>4. Restaurant Ordering & Reservation DBMS</h3>
+<p>
+Designed and implemented a full-stack restaurant database system to manage customers, reservations, seating, menus, bills, and payments using Oracle SQL. The project involved defining functional dependencies, normalizing schemas to 3NF/BCNF, and writing complex SQL queries and scripts for data integrity. A simple Java/Python-based interface was used to interact with the database, showcasing skills in database design, normalization, SQL optimization, and backend integration.
+</p>
+
+ <!--sql section-->
+  <div class="about-right">
+
+    <div class="tech-grid">
+        <div class="tech-card">React</div>
+
+    </div>
+  </div>
+
+<h3>7. Weather Web App (React)</h3>
+<p>
+Created a responsive weather application using React and the OpenWeather API that displays real-time conditions, forecasts, and dynamic backgrounds based on weather states. The app uses React hooks, API integration, and component-based design to deliver an interactive user experience. This project demonstrates frontend development, asynchronous data fetching, and modern JavaScript practices.
+</p>
+
+
