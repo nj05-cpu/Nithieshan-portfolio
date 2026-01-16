@@ -38,6 +38,7 @@
   </section>
 
 <!-- INTRO SECTION -->
+ <section class="content-bg">
 <section class="about-section" id="intro">
   <h2 class="about-title">About</h2>
 
@@ -66,10 +67,11 @@
     </div>
   </div>
 </section>
-
+</section>
 
 
   <!-- PROJECTS SECTION -->
+   <section class="content-bg">
 <section class="about-section" id="Projects">
   <h2 class="about-title">Projects</h2>
 
@@ -90,11 +92,18 @@
 
   <div class="projects-slider">
   <div class="project-card">
-    <h3>Bookstore Application </h3>
-    <p>
-      A desktop bookstore management system built with Java and JavaFX, featuring role-based access for owners and customers, file-backed data persistence, and a customer loyalty rewards program. The application supports secure login, dynamic inventory browsing, purchasing workflows, and points redemption logic. This project demonstrates skills in object-oriented design, GUI development, event-driven programming, and applying design patterns such as State to manage application behavior.
-    </p>
-    
+    <div class="project-content">
+      <h3>Bookstore Application</h3>
+      <p>
+A Java and JavaFX desktop bookstore management system featuring role-based access, inventory management, file-backed persistence, and a loyalty rewards program. Built using object-oriented design and modular architecture to ensure maintainability and clear separation of UI, logic, and data.
+      </p>
+    </div>
+
+    <img
+      src="images/bookstore.jpg"
+      alt="Bookstore App Screenshot"
+      class="project-image"
+    />
 
   </div>
 </div>
@@ -114,26 +123,27 @@
 
 <div class="projects-slider">
   <div class="project-card">
+    <div class="project-content">
     <h3>Tic-Tac-Toe AI</h3>
     <p>
-      Python CLI game with an unbeatable AI using the Minimax algorithm. Demonstrates recursion,
-      game-tree search, and optimal decision making.
-
+A command-line Tic-Tac-Toe game built in Python with an unbeatable AI using the Minimax algorithm. The AI evaluates future game states to select optimal moves, demonstrating recursion, game-tree search, and algorithmic decision-making with clean turn-based logic.
     </p>
   </div>
-
+  </div>
   <div class="project-card">
     <h3>Flashcard Web App</h3>
     <p>
-      Flask web app to create and review flashcards stored in JSON, using Jinja templates and form handling.
-    </p>
+A full-stack Flask web application that allows users to create, manage, and review digital flashcards stored using JSON-based persistence. The application supports adding, editing, deleting, and reviewing flashcards through a clean and intuitive interface rendered with Jinja2 templates.
+
+The project demonstrates backend web development skills including routing, form handling, template rendering, and server-side logic, while maintaining a lightweight and modular architecture. Emphasis was placed on usability, clear data organization, and extensibility, making the application suitable as an educational productivity tool and a foundation for future enhancements such as user authentication or spaced repetition.    </p>
   </div>
 
   <div class="project-card">
     <h3>OCR Course Analyzer</h3>
     <p>
-      OCR pipeline with PyMuPDF and Tesseract to extract evaluation sections from PDFs and compute grade splits.
-    </p>
+An OCR processing pipeline built using Python, PyMuPDF, and Tesseract OCR to extract structured information from unstructured PDF course outline documents. The system converts PDFs into images, performs text extraction, and identifies key academic data such as course codes, evaluation breakdowns, and grading components.
+
+The pipeline is designed as a multi-stage workflow that handles diverse document formats, validates extracted text accuracy, and detects errors caused by irregular layouts or low-quality scans. Extracted results are returned in structured JSON format, enabling downstream analysis and automation. This project demonstrates applied computer vision concepts, data validation, and building robust pipelines for real-world document processing.    </p>
   </div>
 </div>
 
@@ -169,10 +179,24 @@
 
   <div class="projects-slider">
   <div class="project-card">
+  <div class="project-content">
     <h3>Restaurant Ordering & Reservation DBMS</h3>
     <p>
-      Designed and implemented a full-stack restaurant database system to manage customers, reservations, seating, menus, bills, and payments using Oracle SQL. The project involved defining functional dependencies, normalizing schemas to 3NF/BCNF, and writing complex SQL queries and scripts for data integrity. A simple Java/Python-based interface was used to interact with the database, showcasing skills in database design, normalization, SQL optimization, and backend integration.
+      Designed and implemented a full-stack restaurant database system to manage
+      customers, reservations, seating, menus, bills, and payments using Oracle SQL.
+      The project involved defining functional dependencies, normalizing schemas to
+      3NF/BCNF, and writing complex SQL queries and scripts for data integrity.
+      A Java Swing based interface was used to interact with the database,
+      showcasing skills in database design, normalization, SQL optimization, and
+      backend integration.
     </p>
+  </div>
+
+  <img
+    src="images/DBMS.png"
+    alt="Restaurant DBMS Screenshot"
+    class="project-image"
+  />
   </div>
 </div>
 
@@ -182,7 +206,7 @@
   <div class="about-right">
 
     <div class="tech-grid">
-        <div class="tech-card">React</div>
+        <div class="tech-card"> Javascript</div>
 
     </div>
   </div>
@@ -190,9 +214,18 @@
 
   <div class="projects-slider">
   <div class="project-card">
+    <div class="project-content">
+
+    
     <h3>Weather Web App </h3>
     <p>
 Created a responsive weather application using React and the OpenWeather API that displays real-time conditions, forecasts, and dynamic backgrounds based on weather states. The app uses React hooks, API integration, and component-based design to deliver an interactive user experience. This project demonstrates frontend development, asynchronous data fetching, and modern JavaScript practices.    </p>
+  </div>
+  <img
+  src="images/image.png"
+  alt="weather SS"
+  class="project-image"
+/>
   </div>
 </div>
 
@@ -203,7 +236,7 @@ Created a responsive weather application using React and the OpenWeather API tha
     </div>
   </section>
 
-  
+  </section>
 
   
 
